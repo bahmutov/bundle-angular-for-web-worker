@@ -1,0 +1,21 @@
+{
+  "name": "bundle-angular-for-web-worker",
+  "version": "1.0.0",
+  "description": "Trying to load angular from synthetic environment",
+  "main": "app.js",
+  "dependencies": {
+    "benv": "0.1.6",
+    "console-log-div": "0.5.0",
+    "js-beautify": "1.5.1",
+    "angular": "1.4.7"
+  },
+  "devDependencies": {
+    "browserify": "6.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify load-test.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
