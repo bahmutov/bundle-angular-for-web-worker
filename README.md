@@ -1,3 +1,5 @@
+# bundle-angular-for-web-worker
+
 ## To make new Angular WebWorker bundle
 
 * Execute `npm run bundle` command. This creates `bundle.js` file.
